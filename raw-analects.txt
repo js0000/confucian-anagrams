@@ -169,13 +169,13 @@ CHAP. IV.
 2. The Master said, 'A great question indeed!
 3. 'In festive ceremonies, it is better to be sparing than extravagant. In the ceremonies of mourning, it is better that there be deep sorrow than a minute attention to observances.'
 
-CHAP. V. 
+CHAP. V.
 1. The Master said, 'The rude tribes of the east and north have their princes, and are not like the States of our great land which are without them.'
 
 CHAP. VI.
 1. The chief of the Chi family was about to sacrifice to the T'ai mountain. The Master said to Zan Yu, 'Can you not save him from this?' He answered, 'I cannot.' Confucius said, 'Alas! will you say that the T'ai mountain is not so discerning as Lin Fang?'
 
-CHAP. VII. 
+CHAP. VII.
 1. The Master said, 'The student of virtue has no contentions. If it be said he cannot avoid them, shall this be in archery? But he bows complaisantly to his competitors; thus he ascends the hall, descends, and exacts the forfeit of drinking. In his contention, he is still the Chun-tsze.'
 
 CHAP. VIII.
@@ -220,8 +220,7 @@ CHAP. XIX.
 1. The Duke Ting asked how a prince should employ his ministers, and how ministers should serve their prince. Confucius replied, 'A prince should employ his minister according to according to the rules of propriety; ministers should serve their prince with faithfulness.'
 
 CHAP. XX.
-1. The Master said, 'The Kwan Tsu is expressive of enjoyment without being licentious, and of grief without being 
-hurtfully excessive.'
+1. The Master said, 'The Kwan Tsu is expressive of enjoyment without being licentious, and of grief without being hurtfully excessive.'
 
 CHAP. XXI.
 1. The Duke Ai asked Tsai Wo about the altars of the spirits of the land. Tsai Wo replied, 'The Hsia sovereign planted the pine tree about them; the men of the Yin planted the cypress; and the men of the Chau planted the chestnut tree, meaning thereby to cause the people to be in awe.'
@@ -334,11 +333,11 @@ CHAP. XXVI.
 BOOK V.
 KUNG-YE CH'ANG.
 
-CHAP. I. 
+CHAP. I.
 1. The Master said of Kung-ye Ch'ang that he might be wived; although he was put in bonds, he had not been guilty of any crime. Accordingly, he gave him his own daughter to wife.
 2. Of Nan Yung he said that if the country were well governed he would not be out of office, and if it were ill-governed, he would escape punishment and disgrace. He gave him the daughter of his own elder brother to wife.
 
-CHAP. II. 
+CHAP. II.
 1. The Master said of Tsze-chien, 'Of superior virtue indeed is such a man! If there were not virtuous men in Lu, how could this man have acquired this character?'
 
 CHAP. III.
@@ -348,7 +347,7 @@ CHAP. IV.
 1. Some one said, 'Yung is truly virtuous, but he is not ready with his tongue.'
 2. The Master said, 'What is the good of being ready with the tongue? They who encounter men with smartnesses of speech for the most part procure themselves hatred. I know not whether he be truly virtuous, but why should he show readiness of the tongue?'
 
-CHAP. V. 
+CHAP. V.
 1. The Master was wishing Ch'i-tiao K'ai to enter on official employment. He replied, 'I am not yet able to rest in the assurance of THIS.' The Master was pleased.
 
 CHAP. VI.
@@ -369,16 +368,16 @@ CHAP. IX.
 1. Tsai Yu being asleep during the daytime, the Master said, 'Rotten wood cannot be carved; a wall of dirty earth will not receive the trowel. This Yu!-- what is the use of my reproving him?'
 2. The Master said, 'At first, my way with men was to hear their words, and give them credit for their conduct. Now my way is to hear their words, and look at their conduct. It is from Yu that I have learned to make this change.'
 
-CHAP. X. 
+CHAP. X.
 1. The Master said, 'I have not seen a firm and unbending man.' Some one replied, 'There is Shan Ch'ang.' 'Ch'ang,' said the Master, 'is under the influence of his passions; how can he be pronounced firm and unbending?'
 
 CHAP. XI.
 1. Tsze-kung said, 'What I do not wish men to do to me, I also wish not to do to men.' The Master said, 'Ts'ze, you have not attained to that.'
 
-CHAP. XII. 
+CHAP. XII.
 1. Tsze-kung said, 'The Master's personal displays of his principles and ordinary descriptions of them may be heard. His discourses about man's nature, and the way of Heaven, cannot be heard.'
 
-CHAP. XIII. 
+CHAP. XIII.
 1. When Tsze-lu heard anything, if he had not yet succeeded in carrying it into practice, he was only afraid lest he should hear something else.
 
 CHAP. XIV.
@@ -390,7 +389,7 @@ CHAP. XV.
 CHAP. XVI.
 1. The Master said, 'Yen P'ing knew well how to maintain friendly intercourse. The acquaintance might be long, but he showed the same respect as at first.'
 
-CHAP. XVII. 
+CHAP. XVII.
 1. The Master said, 'Tsang Wan kept a large tortoise in a house, on the capitals of the pillars of which he had hills made, and with representations of duckweed on the small pillars above the beams supporting the rafters.-- Of what sort was his wisdom?'
 
 CHAP. XVIII.
@@ -400,7 +399,7 @@ CHAP. XVIII.
 CHAP. XIX.
 1. Chi Wan thought thrice, and then acted. When the Master was informed of it, he said, 'Twice may do.'
 
-CHAP. XX. 
+CHAP. XX.
 1. The Master said, 'When good order prevailed in his country, Ning Wu acted the part of a wise man. When his country was in disorder, he acted the part of a stupid man.  Others may equal his wisdom, but they cannot equal his stupidity.'
 
 CHAP. XXI.
@@ -452,165 +451,79 @@ CHAP. IV.
 CHAP. V.
 The Master said, 'Such was Hui that for three months there would be nothing in his mind contrary to perfect virtue. The others may attain to this on some days or in some months, but nothing more.'
 
+CHAP. VI.
+1. Chi K'ang asked about Chung-yu, whether he was fit to be employed as an officer of government. The Master said, 'Yu is a man of decision; what difficulty would he find in being an officer of government?' K'ang asked, 'Is Ts'ze fit to be employed as an officer of government?' and was answered, 'Ts'ze is a man of intelligence; what difficulty would he find in being an officer of government?' And to the same question about Ch'iu the Master gave the same reply, saying, 'Ch'iu is a man of various ability.'
 
-FIXMEL start here
-【第六章】季康子問仲由、可使從政也與。子曰、由也果、於從政乎何有。
-曰、賜也、可使從政也與。曰、賜也達、於從政乎何有。曰、求也、可使從
-政也與。曰、求也藝、於從政乎何有。
-【第七章】季氏使閔子騫為費宰、閔子騫曰、善為我辭焉、如有復我者、則
-吾必在汶上矣。
-CHAP. VI. Chi K'ang asked about Chung-yu, whether he 
-was fit to be employed as an officer of government. The Master 
-said, 'Yu is a man of decision; what difficulty would he find in 
-being an officer of government?' K'ang asked, 'Is Ts'ze fit to be 
-employed as an officer of government?' and was answered, 
-'Ts'ze is a man of intelligence; what difficulty would he find in 
-being an officer of government?' And to the same question 
-about Ch'iu the Master gave the same reply, saying, 'Ch'iu is a 
-man of various ability.'
-CHAP. VII. The chief of the Chi family sent to ask Min 
-Tsze-ch'ien to be governor of Pi. Min Tsze-ch'ien said, 'Decline 
-the offer for me politely. If any one come again to me with a 
-second invitation, I shall be obliged to go and live on the banks 
-of the Wan.'
+CHAP. VII.
+1. The chief of the Chi family sent to ask Min Tsze-ch'ien to be governor of Pi. Min Tsze-ch'ien said, 'Decline the offer for me politely. If any one come again to me with a second invitation, I shall be obliged to go and live on the banks of the Wan.'
 
-【第八章】伯牛有疾、子問之、自牖執其手、曰、亡之、命矣夫、斯人也、
-而有斯疾也、斯人也、而有斯疾也。
-【第九章】子曰、賢哉回也、一簞食、一瓢飲、在陋巷、人不堪其憂、回也
-不改其樂、賢哉回也。
-【第十章】冉求曰、非不說子之道、力不足也。子曰、力不
-CHAP. VIII. Po-niu being ill, the Master went to ask for 
-him. He took hold of his hand through the window, and said, 'It 
-is killing him. It is the appointment of Heaven, alas! That such a 
-man should have such a sickness! That such a man should have 
-such a sickness!'
-        CHAP. IX. The Master said, 'Admirable indeed was 
-the virtue of Hui! With a single bamboo dish of rice, a single 
-gourd dish of drink, and living in his mean narrow lane, while 
-others could not have endured the distress, he did not allow his 
-joy to be affected by it. Admirable indeed was the virtue of 
-Hui!'
-CHAP. X. Yen Ch'iu said, 'It is not that I do not delight in 
-your doctrines, but my strength is insufficient.' The Master 
-said, 'Those whose strength is insufficient give over in the 
-middle of the way but now you limit yourself.'
+CHAP. VIII.
+1. Po-niu being ill, the Master went to ask for him. He took hold of his hand through the window, and said, 'It is killing him. It is the appointment of Heaven, alas! That such a man should have such a sickness! That such a man should have such a sickness!'
 
-足者、中道而廢、今女畫。
-【十一章】子謂子夏曰、女為君子儒、無為小人儒。
-【十二章】子游為武城宰、子曰、女得人焉耳乎。曰、有澹臺滅明者、行不
-由徑、非公事、未嘗至於偃之室也。
-【十三章】子曰、孟之反不伐、奔而殿、將入門、策其馬、曰、非敢後也、
-馬不進也。
-CHAP. XI. The Master said to Tsze-hsia, 'Do you be a 
-scholar after the style of the superior man, and not after that of 
-the mean man.'
-CHAP. XII. Tsze-yu being governor of Wu-ch'ang, the 
-Master said to him, 'Have you got good men there?' He 
-answered, 'There is Tan-t'ai Mieh-ming, who never in walking 
-takes a short cut, and never comes to my office, excepting on 
-public business.'
-CHAP. XIII. The Master said, 'Mang Chih-fan does not 
-boast of his merit. Being in the rear on an occasion of flight, 
-when they were about to enter the gate, he whipped up his 
-horse, saying, "It is not that I dare to be last. My horse would 
-not advance."'
+CHAP. IX.
+1. The Master said, 'Admirable indeed was the virtue of Hui! With a single bamboo dish of rice, a single gourd dish of drink, and living in his mean narrow lane, while others could not have endured the distress, he did not allow his joy to be affected by it. Admirable indeed was the virtue of Hui!'
 
-【十四章】子曰、不有祝鮀之佞、而有宋朝之美、難乎免於今之世矣。
-【十五章】子曰、誰能出不由戶？何莫由斯道也。
-【十六章】子曰、質勝文則野、文勝質則史、文質彬彬、然後君子。
-【十七章】子曰、人之生也直、罔之生也、幸而免。
-CHAP. XIV. The Master said, 'Without the specious speech 
-of the litanist T'o and the beauty of the prince Chao of Sung, it 
-is difficult to escape in the present age.'
-CHAP. XV. The Master said, 'Who can go out but by the 
-door? How is it that men will not walk according to these 
-ways?'
-CHAP. XVI. The Master said, 'Where the solid qualities are 
-in excess of accomplishments, we have rusticity; where the 
-accomplishments are in excess of the solid qualities, we have 
-the manners of a clerk. When the accomplishments and solid 
-qualities are equally blended, we then have the man of virtue.'
-CHAP. XVII. The Master said, 'Man is born for 
-uprightness. If a man lose his uprightness, and yet live, his 
-escape from death is the effect of mere good fortune.'
+CHAP. X.
+1. Yen Ch'iu said, 'It is not that I do not delight in your doctrines, but my strength is insufficient.' The Master said, 'Those whose strength is insufficient give over in the middle of the way but now you limit yourself.'
 
-【十八章】子曰、知之者、不如好之者、好之者、不如樂之者。
-【十九章】子曰、中人以上、可以語上也、中人以下、不可以語上也。
-【二十章】樊遲問知。子曰、務民之義、敬鬼神而遠之、可謂知矣。問仁。
-曰、仁者先難而後獲、可
-CHAP. XVIII. The Master said, 'They who know the truth 
-are not equal to those who love it, and they who love it are not 
-equal to those who delight in it.'
-CHAP. XIX. The Master said, 'To those whose talents are 
-above mediocrity, the highest subjects may be announced. To 
-those who are below mediocrity, the highest subjects may not 
-be announced.'
-CHAP. XX. Fan Ch'ih asked what constituted wisdom. The 
-Master said, 'To give one's self earnestly to the duties due to 
-men, and, while respecting spiritual beings, to keep aloof from 
-them, may be called wisdom.' He asked about perfect virtue. 
-The Master said, 'The man of virtue makes the difficulty to be 
-overcome his first business, and success only a subsequent 
-consideration-- this may be called perfect virtue.'
+CHAP. XI.
+1. The Master said to Tsze-hsia, 'Do you be a scholar after the style of the superior man, and not after that of the mean man.'
 
-謂仁矣。
-【廿一章】子曰、知者樂水、仁者樂山、知者動、仁者靜。知者樂、仁者壽。
-【廿二章】子曰、齊一變、至於魯、魯一變、至於道。
-【廿三章】子曰、觚不觚、觚哉觚哉。
-【廿四章】宰我問曰、仁者雖告之曰、井有仁焉、其從之
-CHAP. XXI. The Master said, 'The wise find pleasure in 
-water; the virtuous find pleasure in hills. The wise are active; 
-the virtuous are tranquil. The wise are joyful; the virtuous are 
-long-lived.'
-CHAP. XXII. The Master said, 'Ch'i, by one change, would 
-come to the State of Lu. Lu, by one change, would come to a 
-State where true principles predominated.'
-CHAP. XXIII. The Master said, 'A cornered vessel without 
-corners.-- A strange cornered vessel! A strange cornered 
-vessel!'
-CHAP. XXIV. Tsai Wo asked, saying, 'A benevolent man, 
-though it be told him,-- 'There is a man in the well' will go in 
-after him, I suppose.' Confucius said, 'Why should he do so?' A 
-superior
+CHAP. XII.
+1. Tsze-yu being governor of Wu-ch'ang, the Master said to him, 'Have you got good men there?' He answered, 'There is Tan-t'ai Mieh-ming, who never in walking takes a short cut, and never comes to my office, excepting on public business.'
 
-也。子曰、何為其然也、君子可逝也、不可陷也、可欺也、不可罔也。
-【廿五章】子曰、君子博學於文、約之以禮、亦可以弗畔矣夫。
-【廿六章】子見南子、子路不說、夫子矢之、曰、予所否者、天厭之、天厭
-之。
-【廿七章】子曰、中庸之為德也、其至矣乎、民鮮久矣。
-man may be made to go to the well, but he cannot be made to 
-go down into it. He may be imposed upon, but he cannot be 
-fooled.'
-CHAP. XXV. The Master said, 'The superior man, 
-extensively studying all learning, and keeping himself under 
-the restraint of the rules of propriety, may thus likewise not 
-overstep what is right.'
-CHAP. XXVI. The Master having visited Nan-tsze, Tsze-lu 
-was displeased, on which the Master swore, saying, 'Wherein I 
-have done improperly, may Heaven reject me, may Heaven 
-reject me!'
-CHAP. XXVII. The Master said, 'Perfect is the virtue which 
-is
+CHAP. XIII.
+1. The Master said, 'Mang Chih-fan does not boast of his merit. Being in the rear on an occasion of flight, when they were about to enter the gate, he whipped up his horse, saying, "It is not that I dare to be last. My horse would not advance."'
 
-【廿八章】【一節】子貢曰、如有博施於民、而能濟眾、何如、可謂仁乎。
-子曰、何事於仁、必也聖乎、堯舜其猶病諸。【二節】夫仁者、己欲立而立
-人、己欲達而達人。【三節】能近取譬、可謂仁之方也已。
-according to the Constant Mean! Rare for a long time has been 
-its practise among the people.'
-CHAP. XXVIII. 1. Tsze-kung said, 'Suppose the case of a 
-man extensively conferring benefits on the people, and able to 
-assist all, what would you say of him? Might he be called 
-perfectly virtuous?' The Master said, 'Why speak only of virtue 
-in connexion with him? Must he not have the qualities of a 
-sage? Even Yao and Shun were still solicitous about this.
-2. 'Now the man of perfect virtue, wishing to be 
-established himself, seeks also to establish others; wishing to 
-be enlarged himself, he seeks also to enlarge others.
-3. 'To be able to judge of others by what is nigh in 
-ourselves-- this may be called the art of virtue.'
+CHAP. XIV.
+1. The Master said, 'Without the specious speech of the litanist T'o and the beauty of the prince Chao of Sung, it is difficult to escape in the present age.'
 
-述而第七
-BOOK VII. SHU R.
+CHAP. XV.
+1. The Master said, 'Who can go out but by the door? How is it that men will not walk according to these ways?'
+
+CHAP. XVI.
+1.The Master said, 'Where the solid qualities are in excess of accomplishments, we have rusticity; where the accomplishments are in excess of the solid qualities, we have the manners of a clerk. When the accomplishments and solid qualities are equally blended, we then have the man of virtue.'
+
+CHAP. XVII.
+1. The Master said, 'Man is born for uprightness. If a man lose his uprightness, and yet live, his escape from death is the effect of mere good fortune.'
+
+CHAP. XVIII.
+1. The Master said, 'They who know the truth are not equal to those who love it, and they who love it are not equal to those who delight in it.'
+
+CHAP. XIX.
+1. The Master said, 'To those whose talents are above mediocrity, the highest subjects may be announced. To those who are below mediocrity, the highest subjects may not be announced.'
+
+CHAP. XX.
+1. Fan Ch'ih asked what constituted wisdom. The Master said, 'To give one's self earnestly to the duties due to men, and, while respecting spiritual beings, to keep aloof from them, may be called wisdom.' He asked about perfect virtue.  The Master said, 'The man of virtue makes the difficulty to be overcome his first business, and success only a subsequent consideration-- this may be called perfect virtue.'
+
+CHAP. XXI.
+1. The Master said, 'The wise find pleasure in water; the virtuous find pleasure in hills. The wise are active; the virtuous are tranquil. The wise are joyful; the virtuous are long-lived.'
+
+CHAP. XXII.
+1. The Master said, 'Ch'i, by one change, would come to the State of Lu. Lu, by one change, would come to a State where true principles predominated.'
+
+CHAP. XXIII.
+1. The Master said, 'A cornered vessel without corners.-- A strange cornered vessel! A strange cornered vessel!'
+
+CHAP. XXIV.
+1. Tsai Wo asked, saying, 'A benevolent man, though it be told him,-- 'There is a man in the well' will go in after him, I suppose.' Confucius said, 'Why should he do so?' A superior man may be made to go to the well, but he cannot be made to go down into it. He may be imposed upon, but he cannot be fooled.'
+
+CHAP. XXV.
+1. The Master said, 'The superior man, extensively studying all learning, and keeping himself under the restraint of the rules of propriety, may thus likewise not overstep what is right.'
+CHAP. XXVI.
+1. The Master having visited Nan-tsze, Tsze-lu was displeased, on which the Master swore, saying, 'Wherein I have done improperly, may Heaven reject me, may Heaven reject me!'
+
+CHAP. XXVII.
+1. The Master said, 'Perfect is the virtue which is according to the Constant Mean! Rare for a long time has been its practise among the people.'
+
+CHAP. XXVIII.
+1. Tsze-kung said, 'Suppose the case of a man extensively conferring benefits on the people, and able to assist all, what would you say of him? Might he be called perfectly virtuous?' The Master said, 'Why speak only of virtue in connexion with him? Must he not have the qualities of a sage? Even Yao and Shun were still solicitous about this.
+2. 'Now the man of perfect virtue, wishing to be established himself, seeks also to establish others; wishing to be enlarged himself, he seeks also to enlarge others.
+3. 'To be able to judge of others by what is nigh in ourselves-- this may be called the art of virtue.'
+
+
+BOOK VII.
+SHU R.
 
 【第一章】子曰、述而不作、信而好古、竊比於我老彭。
 【第二章】子曰、默而識之、學而不厭、誨人不倦、何有於我哉。
