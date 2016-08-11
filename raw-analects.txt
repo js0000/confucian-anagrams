@@ -1,7 +1,8 @@
-﻿BOOK I.
+﻿
+BOOK I.
 CONFUCIAN ANALECTS.
 
-CHAPTER I.
+CHAP. I.
 1. The Master said, 'Is it not pleasant to learn with a constant perseverance and application?
 2. 'Is it not delightful to have friends coming from distant quarters?'
 3. 'Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?'
@@ -239,6 +240,7 @@ CHAP. XXIV.
 
 CHAP. XXV.
 1. The Master said of the Shao that it was perfectly beautiful and also perfectly good. He said of the Wu that it was perfectly beautiful but not perfectly good.
+
 CHAP. XXVI.
 1. The Master said, 'High station filled without indulgent generosity; ceremonies performed without reverence; mourning conducted without sorrow-- wherewith should I contemplate such ways?'
 
@@ -1923,7 +1925,8 @@ CHAP. I.
 5. 'Although he has his near relatives, they are not equal to my virtuous men. The people are throwing blame upon me, the One man.'
 6. He carefully attended to the weights and measures, examined the body of the laws, restored the discarded officers, and the good government of the kingdom took its course.
 7. He revived States that had been extinguished, restored families whose line of succession had been broken, and called to office those who had retired into obscurity, so that throughout the kingdom the hearts of the people turned towards him.
-8. What he attached chief importance to, were the food of the people, the duties of mourning, and sacrifices.  9. By his generosity, he won all. By his sincerity, he made the people repose trust in him. By his earnest activity, his achievements were great. By his justice, all were delighted.
+8. What he attached chief importance to, were the food of the people, the duties of mourning, and sacrifices.
+9. By his generosity, he won all. By his sincerity, he made the people repose trust in him. By his earnest activity, his achievements were great. By his justice, all were delighted.
 
 CHAP. II.
 1. Tsze-chang asked Confucius, saying, 'In what way should a person in authority act in order that he may conduct government properly?' The Master replied, 'Let him honour the five excellent, and banish away the four bad, things-- then may he conduct government properly.' Tsze- chang said, 'What are meant by the five excellent things?' The Master said, 'When the person in authority is beneficent without great expenditure; when he lays tasks on the people without their repining; when he pursues what he desires without being covetous; when he maintains a dignified ease without being proud; when he is majestic without being fierce.'
