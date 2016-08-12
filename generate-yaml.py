@@ -148,6 +148,10 @@ for line in f:
         nextLineTitle = False
         continue
     else:
+        m = re.match( '^(\d+)\. (.+)$', l )
+        if m:
+            currentChapter['chapterVerses'].append( { 'verseNumber' : int( m.group( 1 ) ), 'verseText' : m.group( 2 ) } )
+
         m = re.match( '^BOOK (\w+)\.', l )
         if m:
             if 'bookNumber' in currentBook:
@@ -169,10 +173,6 @@ for line in f:
             r = m.group( 1 )
             currentChapter['chapterNumber'] =  roman_to_int( r )
             continue
-
-        m = re.match( '^\d+\. (.+)$', l )
-        if m:
-            currentChapter['chapterVerses'].append( m.group( 1 ) )
 
 # clean up
 currentBook['bookChapters'].append( currentChapter )
@@ -199,27 +199,4 @@ f.close()
 #   create new currentChapter dictionary
 
 # if ^(\d+). (\w+)
-#   create new anonymous currentVerse dictionary and append to last CurrentChapter
-
-# DATA MODEL
-# analects = [
-#   {
-#     bookName = '',
-#     bookNumber = N,
-#     bookChapters = [
-#       {
-#         chapterNumber = N,
-#         chapterVerses = [
-#           {
-#             verseNumber = N,
-#             verseText = ''
-#           },
-#           ...
-#         ]
-#       },
-#       ...
-#    ]
-#   },
-#   ...
-# ]
-
+#   create new anonymous currentVerse dictionary and append to CurrentChapter
