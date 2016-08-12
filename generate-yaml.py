@@ -1,6 +1,8 @@
 # generate-yaml.py
 # reads raw-analects.txt
-# creates YAML output
+# converts to python data structure
+# dumps to file
+
 
 import pprint
 import re
@@ -180,7 +182,7 @@ analects.append( currentBook )
 f.close()
 
 f = open( 'raw-analects.yaml', 'w' )
-yaml.dump( analects, f, default_flow_style = False )
+yaml.dump( { 'analects' :  analects }, f, default_flow_style = False, width = 9999, explicit_start = True )
 f.close()
 
 

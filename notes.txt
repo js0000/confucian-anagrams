@@ -414,3 +414,7 @@ another set- setting off chapters
 3. 1024 minutes
 4. 2048 minutes
 
+
+20160916
+API for anagrams
+http://anagramica.com/api

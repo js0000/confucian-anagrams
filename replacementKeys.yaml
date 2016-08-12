@@ -1,0 +1,25 @@
+# replacementKeys.yaml
+# manual key:
+#   each subkey [ok, only one]
+#   will have an array of edited replacements
+# computed
+#   each subkey will gather the words around it
+#     without going beyond punctuation
+#   until a string of suitable length is found
+#   string of suitable length is sent to anagram generator
+#   replacement is then selected
+
+---
+replacementKeys:
+    manual:
+        - the master
+    computed:
+        - virtue
+        - said
+        - of the
+        - will
+        - did not
+        - in the
+        - to be
+        - prince
+        - asked
