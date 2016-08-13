@@ -8,11 +8,180 @@
 #   until a string of suitable length is found
 #   string of suitable length is sent to anagram generator
 #   replacement is then selected
+# not found
+#   may ignore, or grab a big word and try
 
 ---
 replacementKeys:
     manual:
-        - the master
+        the master:
+            - theatre ms
+            - theater ms
+            - harem test
+            - earths met
+            - hearts met
+            - haters met
+            - hatters me
+            - shatter me
+            - threats me
+            - hater stem
+            - heart stem
+            - earth stem
+            - heats term
+            - haste term
+            - hates term
+            - hate terms
+            - heat terms
+            - stream the
+            - tamers the
+            - matters he
+            - matters eh
+            - matter she
+            - tamest her
+            - tears them
+            - rates them
+            - stare them
+            - treats hem
+            - taster hem
+            - treat mesh
+            - treat hems
+            - ham street
+            - ham tester
+            - ham setter
+            - ham retest
+            - maths tree
+            - math steer
+            - math reset
+            - math trees
+            - math terse
+            - trash meet
+            - hats metre
+            - hats meter
+            - hat meters
+            - hat merest
+            - hat metres
+            - am tethers
+            - ma tethers
+            - mars teeth
+            - arms teeth
+            - mart sheet
+            - mart these
+            - mast there
+            - mast ether
+            - mast three
+            - mats there
+            - mats ether
+            - mats three
+            - mat ethers
+            - mat threes
+            - star theme
+            - rats theme
+            - arts theme
+            - tsar theme
+            - rat themes
+            - art themes
+            - tar themes
+            - a tether ms
+            - a teeth mrs
+            - a them rest
+            - a the terms
+            - hate set mr
+            - heat set mr
+            - tear the ms
+            - rate the ms
+            - treat he ms
+            - treat eh ms
+            - east the mr
+            - seat the mr
+            - teas the mr
+            - eats the mr
+            - state he mr
+            - state eh mr
+            - taste he mr
+            - taste eh mr
+            - eat the mrs
+            - ate the mrs
+            - tea the mrs
+            - ha term set
+            - ha met rest
+            - ah term set
+            - ah met rest
+            - rah me test
+            - rah met set
+            - hats tee mr
+            - hat tree ms
+            - hat tees mr
+            - hat tee mrs
+            - hat me rest
+            - that see mr
+            - am her test
+            - am the rest
+            - ma her test
+            - ma the rest
+            - arm he test
+            - arm eh test
+            - arm the set
+            - ram he test
+            - ram eh test
+            - ram the set
+            - mar he test
+            - mar eh test
+            - mar the set
+            - mart he set
+            - mart eh set
+            - mat he rest
+            - mat eh rest
+            - mat her set
+            - star he met
+            - star eh met
+            - star the me
+            - rats he met
+            - rats eh met
+            - rats the me
+            - arts he met
+            - arts eh met
+            - arts the me
+            - tsar he met
+            - tsar eh met
+            - tsar the me
+            - start he me
+            - start eh me
+            - tarts he me
+            - tarts eh me
+            - rat he stem
+            - rat eh stem
+            - rat hem set
+            - rat she met
+            - art he stem
+            - art eh stem
+            - art hem set
+            - art she met
+            - tar he stem
+            - tar eh stem
+            - tar hem set
+            - tar she met
+            - tart she me
+            - as teeth mr
+            - as the term
+            - sat he term
+            - sat eh term
+            - sat her met
+            - at there ms
+            - at ether ms
+            - at three ms
+            - at sheet mr
+            - at these mr
+            - at he terms
+            - at eh terms
+            - at hem rest
+            - at her stem
+            - at hers met
+            - at she term
+            - a he test mr
+            - a eh test mr
+            - a the set mr
+            - at he set mr
+            - at eh set mr
     computed:
         - virtue
         - said
