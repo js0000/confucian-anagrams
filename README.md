@@ -28,7 +28,7 @@ familiarity with the analects themselves.
 ## how?
 
 I start with a [source text](http://www.gutenberg.org/ebooks/3330)
-generously provided to the public by project gutenberg
+generously provided to the public by Project Gutenberg.
 
 * *title*: The Analects of Confucius (from the Chinese Classics) 
 * *author*: Confucius, 551 BCE-479 BCE
