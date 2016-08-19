@@ -7,10 +7,10 @@ of an artistic project. Like most artistic projects, a clear
 statement of **wtf** is going on is probably only possible for a
 limited time, and not really of much value to the artist.
 
-So i am skipping meta artistic issues for now, but they do indeed
+So I am skipping meta artistic issues for now, but they do indeed
 exist.
 
-At the end, i am looking to have 2 outcomes:
+At the end, I am looking to have 2 outcomes:
 
 1. a pdf from LaTeX
 2. a sqlite3 db and a shell script to be run by a cron process
