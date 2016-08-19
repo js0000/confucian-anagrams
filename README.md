@@ -11,6 +11,7 @@ So i am skipping meta artistic issues for now. but they do indeed
 exist.
 
 At the end, i am looking to have 2 outcomes:
+
 1. a pdf from LaTeX
 2. a sqlite3 db and a shell script to be run by a cron process
 
@@ -26,8 +27,9 @@ familiarity with the analects themselves.
 
 ## how?
 
-I start with a (source text)[http://www.gutenberg.org/ebooks/3330] 
+I start with a [source text](http://www.gutenberg.org/ebooks/3330)
 generously provided to the public by project gutenberg
+
 * *title*: The Analects of Confucius (from the Chinese Classics) 
 * *author*: Confucius, 551 BCE-479 BCE
 * *translator*: Legge, James, 1815-1897
@@ -40,4 +42,4 @@ being the format used in data files.
 
 ## why?
 
-don't (tempt|depress|lose) me ...
+don't (tempt|depress|lose) me ... :crystal_ball:
