@@ -14,169 +14,168 @@
 
 ---
 replacementKeys:
-    manual:
-        the-Master:
-            - Theatre ms
-            - Theater ms
-            - Harem test
-            - Earths met
-            - Hearts met
-            - Haters met
-            - Hatters me
-            - shatter Me
-            - threats Me
-            - Hater stem
-            - Heart stem
-            - Earth stem
-            - heats Term
-            - haste Term
-            - hates Term
-            - hate Terms
-            - heat Terms
-            - Stream the
-            - Tamers the
-            - matters He
-            - matters Eh
-            - matter She
-            - tamest Her
-            - tears Them
-            - rates Them
-            - stare Them
-            - treats Hem
-            - Taster hem
-            - Treat mesh
-            - Treat hems
-            - Ham street
-            - ham Tester
-            - ham Tetter
-            - Ham retest
-            - Maths tree
-            - math Steer
-            - math Reset
-            - math Trees
-            - Math terse
-            - Trash meet
-            - Hats metre
-            - Hats meter
-            - hat Meters
-            - Hat merest
-            - Hat metres
-            - am Tethers
-            - Ma tethers
-            - mars Teeth
-            - arms Teeth
-            - Mast there
-            - Mast ether
-            - Mast three
-            - Mats there
-            - Mats ether
-            - Mats three
-            - mat Ethers
-            - mat Threes
-            - Star theme
-            - Rats theme
-            - Arts theme
-            - Tsar theme
-            - rat Themes
-            - art Themes
-            - tar Themes
-            - a tether Ms
-            - a teeth Mrs
-            - a Them rest
-            - a the Terms
-            - hate set Mr
-            - heat set Mr
-            - tear the Ms
-            - rate the Ms
-            - treat he Ms
-            - treat eh Ms
-            - east the Mr
-            - seat the Mr
-            - teas the Mr
-            - eats the Mr
-            - state he Mr
-            - state eh Mr
-            - taste he Mr
-            - taste eh Mr
-            - eat the Mrs
-            - ate the Mrs
-            - tea the Mrs
-            - ha Term set
-            - ha met Rest
-            - ah Term set
-            - ah met Rest
-            - hats tee Mr
-            - hat tree Ms
-            - hat tees Mr
-            - hat tee Mrs
-            - Hat me rest
-            - that see Mr
-            - am her Test
-            - am the Rest
-            - ma her Test
-            - ma the Rest
-            - arm he Test
-            - arm eh Test
-            - arm the Set
-            - Ram he test
-            - Ram eh test
-            - Ram the set
-            - mar he Test
-            - mar eh Test
-            - mar the Set
-            - Mat he rest
-            - Mat eh rest
-            - Mat her set
-            - Star he met
-            - Star eh met
-            - Star the me
-            - Rats he met
-            - Rats eh met
-            - Rats the me
-            - Arts he met
-            - Arts eh met
-            - Arts the me
-            - Tsar he met
-            - Tsar eh met
-            - Tsar the me
-            - start He me
-            - start eh Me
-            - Tarts he me
-            - Tarts eh me
-            - Rat he stem
-            - Rat eh stem
-            - Rat hem set
-            - Rat she met
-            - art he Stem
-            - art eh Stem
-            - art Hem set
-            - Art she met
-            - tar he Stem
-            - tar eh Stem
-            - tar Hem set
-            - Tar she met
-            - Tart she me
-            - as Teeth mr
-            - as the Term
-            - sat he Term
-            - sat eh Term
-            - sat Her met
-            - at there Ms
-            - at ether Ms
-            - at three Ms
-            - at sheet Mr
-            - at these Mr
-            - at he Terms
-            - at eh Terms
-            - at Hem rest
-            - at her Stem
-            - at Hers met
-            - at she Term
-            - a he test Mr
-            - a eh test Mr
-            - a the set Mr
-            - at he set Mr
-            - at eh set Mr
+    the-Master:
+        - ms Theatre
+        - ms Theater
+        - test Harem
+        - met Earths
+        - met Hearts
+        - met Haters
+        - me Hatters
+        - me Shatter
+        - me Threats
+        - stem Hater
+        - stem Heart
+        - earth Stem
+        - heats Term
+        - haste Term
+        - hates Term
+        - hate Terms
+        - heat Terms
+        - the Stream
+        - the Tamers
+        - he Matters
+        - eh Matters
+        - she Matter
+        - her Tamest
+        - them Tears
+        - them Rates
+        - them Stare
+        - hem Treats
+        - hem Taster
+        - mesh Treat
+        - treat Hems
+        - ham Street
+        - ham Tester
+        - ham Tetter
+        - retest Ham
+        - tree Maths
+        - math Steer
+        - reset Math
+        - math Trees
+        - terse Math
+        - trash Meet
+        - metre Hats
+        - meter Hats
+        - hat Meters
+        - merest Hat
+        - hat Metres
+        - am Tethers
+        - tethers Ma
+        - mars Teeth
+        - teeth Arms
+        - there Mast
+        - ether Mast
+        - three Mast
+        - mats There
+        - ether Mats
+        - three Mats
+        - mat Ethers
+        - mat Threes
+        - star Theme
+        - rats Theme
+        - arts Theme
+        - tsar Theme
+        - rat Themes
+        - art Themes
+        - tar Themes
+        - a ms Tether
+        - a mrs Teeth
+        - a rest Them
+        - the a Terms
+        - set mr Hate
+        - set mr Heat
+        - the ms Tear
+        - rate the Ms
+        - he ms Treat
+        - eh ms Treat
+        - the mr East
+        - the mr Seat
+        - the mr Teas
+        - the mr Eats
+        - he mr State
+        - eh mr State
+        - he mr Taste
+        - eh mr Taste
+        - eat the Mrs
+        - ate the Mrs
+        - the mrs Tea
+        - set term Ha
+        - met ha Rest
+        - set ah Term
+        - ah met Rest
+        - mr hats Tee
+        - tree ms Hat
+        - mr tees Hat
+        - mrs tee Hat
+        - me rest Hat
+        - that mr See
+        - her am Test
+        - am the Rest
+        - her test Ma
+        - the rest Ma
+        - he test Arm
+        - eh arm Test
+        - the arm Set
+        - test he Ram
+        - eh ram Test
+        - the set Ram
+        - he mar Test
+        - eh test Mar
+        - the set Mar
+        - he rest Mat
+        - eh rest Mat
+        - set her Mat
+        - he met Star
+        - eh met Star
+        - me the Star
+        - he met Rats
+        - eh met Rats
+        - me the Rats
+        - he met Arts
+        - eh met Arts
+        - me the Arts
+        - he met Tsar
+        - eh met Tsar
+        - me the Tsar
+        - me start He
+        - eh start Me
+        - he me Tarts
+        - eh me Tarts
+        - he rat Stem
+        - eh rat Stem
+        - set hem Rat
+        - she met Rat
+        - he art Stem
+        - eh stem Art
+        - set hem Art
+        - she met Art
+        - he tar Stem
+        - eh tar Stem
+        - set tar Hem
+        - she met Tar 
+        - she me Tart
+        - as mr Teeth
+        - as the Term
+        - he sat Term
+        - eh term Sat
+        - met her Sat
+        - ms at There
+        - ms at Ether
+        - ms at Three
+        - mr at Sheet
+        - mr at These
+        - he at Terms
+        - at eh Terms
+        - hem at Rest
+        - at her Stem
+        - met at Hers
+        - she at Term
+        - he a mr Test
+        - eh a test Mr
+        - the set mr A
+        - he set at Mr
+        - eh at mr Set
     computed:
         - virtue
         - said
