@@ -182,7 +182,7 @@ analects.append( currentBook )
 f.close()
 
 f = open( 'raw-analects.yaml', 'w' )
-yaml.dump( { 'analects' :  analects }, f, default_flow_style = False, width = 9999, explicit_start = True )
+yaml.dump( analects, f, default_flow_style = False, width = 9999, explicit_start = True )
 f.close()
 
 
