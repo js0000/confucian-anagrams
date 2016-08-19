@@ -7,7 +7,7 @@ of an artistic project. Like most artistic projects, a clear
 statement of **wtf** is going on is probably only possible for a
 limited time, and not really of much value to the artist.
 
-So i am skipping meta artistic issues for now. but they do indeed
+So i am skipping meta artistic issues for now, but they do indeed
 exist.
 
 At the end, i am looking to have 2 outcomes:
