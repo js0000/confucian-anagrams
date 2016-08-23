@@ -1,8 +1,6 @@
 # replacementKeys.yaml
-# manual key:
-#   each subkey [ok, only one]
-#   will have an array of edited replacements
-#     the-Master key should have one word capitalized within
+# theMaster
+#   an array of edited replacements
 # computed
 #   each subkey will gather the words around it
 #     without going beyond punctuation
@@ -11,9 +9,11 @@
 #   replacement is then selected
 # not found
 #   may ignore, or grab a big word and try
+# bookNames
+#   selected anagram for each bookName
 
 ---
-the-Master:
+theMaster:
     - ms Theatre
     - ms Theater
     - test Harem
@@ -152,7 +152,7 @@ the-Master:
     - he tar Stem
     - eh tar Stem
     - set tar Hem
-    - she met Tar 
+    - she met Tar
     - she me Tart
     - as mr Teeth
     - as the Term
@@ -185,3 +185,34 @@ computed:
     - to be
     - prince
     - asked
+bookNames:
+    CONFUCIAN ANALECTS:
+        - CANONICAL FACE STUN
+        - CANONICAL SAFE CUNT
+        - CANCAN UNFIT SOLACE
+        - CON UNLACES FANATIC
+        - CONCEAL SATANIC FUN
+        - CONSISE ANNUAL FACT
+        - FLAUNT COCAINE SCAN
+    SHU R: 
+        - RUSH
+
+#  bookName: WEI CHANG
+#  bookName: PA YIH
+#  bookName: LE JIN
+#  bookName: KUNG-YE CH'ANG
+#  bookName: YUNG YEY
+#  bookName: 
+#  bookName: T'AI-PO
+#  bookName: TSZE HAN
+#  bookName: HEANG TANG
+#  bookName: HSIEN TSIN
+#  bookName: YEN YUAN
+#  bookName: TSZE-LU
+#  bookName: HSIEN WAN
+#  bookName: WEI LING KUNG
+#  bookName: KE SHE
+#  bookName: YANG HO
+#  bookName: WEI TSZE
+#  bookName: TSZE-CHANG
+#  bookName: YAO YUEH
