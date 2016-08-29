@@ -2,6 +2,7 @@
 # adds "anagram processed" texts to python data structure
 
 import random
+import re
 import yaml
 
 ## DEBUG
@@ -10,8 +11,18 @@ import yaml
 
 
 ## SUBROUTINES
-def generateAnagramText( vt, rk ):
-    return vt
+def generateAnagramText( vt, r ):
+    m = re.search( 'the master', vt, re.IGNORECASE )
+    if m:
+        # instead of returning here, call a function to do the replacement
+        return 'the master'
+
+    for p in r['verseText']['computed']:
+        m = re.search( p, vt, re.IGNORECASE )
+        if m:
+            return p
+
+    return 'unmatched'
 
 # subroutine only a stub now
 # coding logic explained below
@@ -31,10 +42,10 @@ def generateAnagramText( vt, rk ):
 
 ## MAIN
 
-f = open( 'replacementKeys.yaml' )
-replacementKeys = yaml.load( f )
+f = open( 'replacements.yaml' )
+replacements = yaml.load( f )
 f.close()
-random.shuffle( replacementKeys['the-Master'] )
+random.shuffle( replacements['verseText']['theMaster'] )
 
 f = open( 'raw-analects.yaml' )
 analects = yaml.load( f )
@@ -43,7 +54,8 @@ f.close()
 for book in analects:
     for chapter in book['bookChapters']:
         for verse in chapter['chapterVerses']:
-            anagramText = generateAnagramText( verse['verseText'], replacementKeys )
+            anagramText = generateAnagramText( verse['verseText'], replacements )
+            print anagramText
 
 # add 'anagramText' key to verse object
 # add 'info' key with date/time of replacement
