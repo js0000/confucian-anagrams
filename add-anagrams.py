@@ -6,15 +6,48 @@ import re
 import yaml
 
 ## DEBUG
-#import pprint
+import pprint
 #pp = pprint.PrettyPrinter( indent = 2 )
 
 
 ## SUBROUTINES
+def replaceMaster( vt, replacement ):
+    masterAtStart = False
+    n = re.search( '^the master', vt, re.IGNORECASE )
+    if n:
+        masterAtStart = True
+
+    m = re.split( 'the master', vt, flags=re.IGNORECASE )
+    processedVerse = False
+    parts = len( m )
+    if parts == 0:
+        print( 'split fails for ' + vt )
+        return False
+    # start or end
+    elif parts == 1:
+        if masterAtStart:
+            processedVerse = replacement + ' ' + m[0]
+        else:
+            processedVerse = m[0] + ' ' + replacement
+        
+    elif parts == 2:
+        processedVerse = m[0] + replacement + m[1]
+
+    else:
+        collector = []
+        idx = random.randint( 0, parts - 1 )
+    # FIXME: start here
+    #    for i in range( parts - 1 ):
+    #        if i == idx:
+
+    return processedVerse
+        
 def generateAnagramText( vt, r ):
     m = re.search( 'the master', vt, re.IGNORECASE )
     if m:
-        # instead of returning here, call a function to do the replacement
+        idx = random.randint( 0, len( r['verseText']['theMaster'] ) - 1 )
+        replacement = r['verseText']['theMaster'][ idx ]
+        replaceMaster( vt, replacement )
         return 'the master'
 
     for p in r['verseText']['computed']:
