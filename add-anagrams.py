@@ -6,56 +6,76 @@ import re
 import yaml
 
 ## DEBUG
-import pprint
+#import pprint
 #pp = pprint.PrettyPrinter( indent = 2 )
 
 
 ## SUBROUTINES
 def replaceMaster( vt, replacement ):
-    masterAtStart = False
-    n = re.search( '^the master', vt, re.IGNORECASE )
-    if n:
-        masterAtStart = True
-
     m = re.split( 'the master', vt, flags=re.IGNORECASE )
     processedVerse = False
     parts = len( m )
     if parts == 0:
         print( 'split fails for ' + vt )
         return False
-    # start or end
-    elif parts == 1:
-        if masterAtStart:
-            processedVerse = replacement + ' ' + m[0]
-        else:
-            processedVerse = m[0] + ' ' + replacement
         
     elif parts == 2:
-        processedVerse = m[0] + replacement + m[1]
+        if len( m[0] ) == 0:
+            processedVerse = replacement + m[1]
+        elif len( m[1] ) == 0:
+            processedVerse = m[0] + replacement
+        else:
+            processedVerse = m[0] + replacement + m[1]
 
     else:
+        # FIXME: not quite sure this is working if idx == parts - 1
         collector = []
         idx = random.randint( 0, parts - 1 )
-    # FIXME: start here
-    #    for i in range( parts - 1 ):
-    #        if i == idx:
+
+        if idx == 0 and len( m[0] ) == 0:
+            collector.append( replacement )
+            collector.append( m[1] );
+            for i in range( 2, parts ):
+                collector.append( 'the Master' )
+                collector.append( m[ i ] );
+        else:
+            if len( m[0] ) == 0:
+                collector.append( 'The Master' )
+
+            for i in range( parts - 1 ):
+                collector.append( m[ i ] )
+                if i == idx:
+                    collector.append( replacement )
+                else:
+                    collector.append( 'the Master' )
+
+            if len( m[ parts - 1 ] ) == 0 and idx == ( parts - 1 ):
+                collector.append( replacement )
+            elif len( m[ parts - 1 ] ) == 0:
+                collector.append( 'the Master' )
+            else:
+                collector.append( m[ parts - 1 ] )
+        processedVerse = ''.join( collector )
 
     return processedVerse
         
 def generateAnagramText( vt, r ):
-    m = re.search( 'the master', vt, re.IGNORECASE )
+    m = re.search( 'the master', vt, flags=re.IGNORECASE )
     if m:
+        # FIXME: should have option to cycle through replacements
         idx = random.randint( 0, len( r['verseText']['theMaster'] ) - 1 )
         replacement = r['verseText']['theMaster'][ idx ]
-        replaceMaster( vt, replacement )
-        return 'the master'
+        anagramVerse = replaceMaster( vt, replacement )
+        return anagramVerse
 
     for p in r['verseText']['computed']:
-        m = re.search( p, vt, re.IGNORECASE )
+        m = re.search( p, vt, flags=re.IGNORECASE )
         if m:
-            return p
+            # FIXME: this is the curl replacement
+            return 'c'
 
-    return 'unmatched'
+    # FIXME: this is the random text replacement
+    return 'x'
 
 # subroutine only a stub now
 # coding logic explained below
@@ -88,11 +108,8 @@ for book in analects:
     for chapter in book['bookChapters']:
         for verse in chapter['chapterVerses']:
             anagramText = generateAnagramText( verse['verseText'], replacements )
-            print anagramText
 
 # add 'anagramText' key to verse object
 # add 'info' key with date/time of replacement
 ## also maybe other interesting stats
 # dump updated data to yaml
-
-
