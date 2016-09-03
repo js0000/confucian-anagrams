@@ -9,62 +9,73 @@ import yaml
 #import pprint
 #pp = pprint.PrettyPrinter( indent = 2 )
 
+## GLOBALS
+masterCounter = 0
+
 
 ## SUBROUTINES
 def replaceMaster( vt, replacement ):
-    m = re.split( 'the master', vt, flags=re.IGNORECASE )
+    verseList = re.split( '(the master)', vt, flags=re.IGNORECASE )
     processedVerse = False
-    parts = len( m )
+    parts = len( verseList )
     if parts == 0:
         print( 'split fails for ' + vt )
         return False
         
-    elif parts == 2:
-        if len( m[0] ) == 0:
-            processedVerse = replacement + m[1]
-        elif len( m[1] ) == 0:
-            processedVerse = m[0] + replacement
-        else:
-            processedVerse = m[0] + replacement + m[1]
-
     else:
-        # FIXME: not quite sure this is working if idx == parts - 1
         collector = []
-        idx = random.randint( 0, parts - 1 )
-
-        if idx == 0 and len( m[0] ) == 0:
-            collector.append( replacement )
-            collector.append( m[1] );
-            for i in range( 2, parts ):
-                collector.append( 'the Master' )
-                collector.append( m[ i ] );
-        else:
-            if len( m[0] ) == 0:
-                collector.append( 'The Master' )
-
-            for i in range( parts - 1 ):
-                collector.append( m[ i ] )
-                if i == idx:
-                    collector.append( replacement )
-                else:
-                    collector.append( 'the Master' )
-
-            if len( m[ parts - 1 ] ) == 0 and idx == ( parts - 1 ):
-                collector.append( replacement )
-            elif len( m[ parts - 1 ] ) == 0:
-                collector.append( 'the Master' )
+        idx = random.randint( 0, parts / 2 )
+        # needs to be modified to work with re.split return data
+        # replacement will be either only odd or only even
+        idx *= 2
+        if not re.match( '^the master$', verseList[0], flags=re.IGNORECASE ):
+            if idx > 0:
+                idx -= 1
             else:
-                collector.append( m[ parts - 1 ] )
-        processedVerse = ''.join( collector )
+                idx += 1
+        for i in range( parts ):
+            if len( verseList[ i ] ) < 1:
+                continue
 
-    return processedVerse
+            if re.match( '^the master$', verseList[ i ], flags=re.IGNORECASE ):
+                if verseList[ i ].istitle():
+                    if i == idx:
+                        collector.append( replacement.title() ) 
+                    else:
+                        collector.append( 'The Master' )
+                else:
+                    if i == idx:
+                        collector.append( replacement )
+                    else:
+                        collector.append( 'the Master' )
+            else:
+                collector.append( verseList[ i ] )
+
+    return ''.join( collector )
+       
         
+# arg b is boolean
+# determining whether to cycle through options
+# not implemented
+def selectMasterReplacement( r, b ):
+    global masterCounter
+    if b:
+        replacement = r['verseText']['theMaster'][ masterCounter ]
+        i = masterCounter + 1
+        moduloBase = len( r['verseText']['theMaster'] )
+        masterCounter = i % moduloBase
+    else:
+        random.shuffle( replacements['verseText']['theMaster'] )
+        idx = random.randint( 0, len( r['verseText']['theMaster'] ) - 1 )
+        replacement = r['verseText']['theMaster'][ idx ]
+
+    return replacement
+
+
 def generateAnagramText( vt, r ):
     m = re.search( 'the master', vt, flags=re.IGNORECASE )
     if m:
-        # FIXME: should have option to cycle through replacements
-        idx = random.randint( 0, len( r['verseText']['theMaster'] ) - 1 )
-        replacement = r['verseText']['theMaster'][ idx ]
+        replacement = selectMasterReplacement( r, False )
         anagramVerse = replaceMaster( vt, replacement )
         return anagramVerse
 
@@ -98,7 +109,6 @@ def generateAnagramText( vt, r ):
 f = open( 'replacements.yaml' )
 replacements = yaml.load( f )
 f.close()
-random.shuffle( replacements['verseText']['theMaster'] )
 
 f = open( 'raw-analects.yaml' )
 analects = yaml.load( f )
