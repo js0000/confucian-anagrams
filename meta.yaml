@@ -1,8 +1,10 @@
-# replacements.yaml
-# verseText
+# meta.yaml
+# extra data needed for processing
+#
+# replacementTexts
 #   theMaster
 #     an array of edited replacements
-#   computed
+#   stubs
 #     each subkey will gather the words around it
 #       without going beyond punctuation
 #     until a string of suitable length is found
@@ -13,7 +15,7 @@
 #   put favorite one at top
 
 ---
-verseText:
+replacementTexts:
     theMaster:
         - ms Theatre
         - ms Theater
@@ -176,7 +178,7 @@ verseText:
         - the set mr A
         - he set at Mr
         - eh at mr Set
-    computed:
+    stubs:
         - virtue
         - said
         - of the
