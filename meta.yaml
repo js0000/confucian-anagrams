@@ -17,70 +17,98 @@
 ---
 replacementTexts:
     theMaster:
-        - the Ms Tear
-        - a Ms Tether
-        - the A Terms
-        - Ms Theatre
-        - Mr Tee Hats
-        - a Mrs Teeth
         - the Mr East
-        - Me the star
-        - the Mr Seat
-        - Ms Hat Tree
-        - Mr Tees Hat
-        - Mrs Hat Tee
-        - that Mr See
-        - the Mrs Tea
-        - the rest Ma
+        - the Mr A Set
         - the Mr Teas
+        - the Mr Seat
         - the Mr Eats
-        - Mr Eh State
-        - Ms Eh Treat
-        - the Me arts
-        - the Me Tsar
-        - the Me rats
-        - Mr Eh Taste
-        - She-matter
-        - Ham street
-        - Earth stem
-        - Mast three
-        - Hat meters
-        - Ms Theater
-        - Star theme
-        - Hem art set
-        - Rats theme
-        - Arts theme
-        - Tsar theme
-        - Rat themes
-        - Art themes
-        - Tar themes
-        - Ether mats
-        - Three mats
-        - Tree maths
+        - the Tsar Me
+        - that Mr See
+        - a Mr He Test
+        - Mr He State
+        - Mr He Taste
+        - Mr Tee Hats
+        - Mr Hat Tees
         - the Stream
         - the Tamers
-        - test Harem
+        - the A Terms
+        - Ms Theatre
+        - Ms Theater
+        - Ms He Treat
+        - the Ms Tear
+        - a Ms Tether
+        - the Mrs Tea
+        - Mrs Hat Tee
+        - a Mrs Teeth
+        - Mr Eh State
+        - Mr Eh Taste
+        - Mr Eh Taste
+        - Ms Hat Tree
+        - Ms Eh Treat
+        - the rest Ma
+        - Me the star
+        - She-matter
+        - Hem art set
+        - the me arts
+        - the me rats
+
+        - as the Term
+        - at Mr These
+        - at Mr Sheet
+        - at Mr He Set
+        - at Ms There
+        - at Ms Three
+        - as Mr Teeth
+        - at Mr Eh Set
+        - at Ms Ether
+        - at terms E H
+        - at her Stem
+
+        - Heart stem
+        - Earth stem
+        - Tsar theme
+        - Star theme
+        - Arts theme
+        - Maths tree
+        - Art themes
+        - Tar themes
+        - math Trees
         - math Steer
-        - stem Hater
-        - heart Stem
         - heat Terms
-        - ether Mast
-        - haste Term
-        - merest Hat
-        - hem Taster
         - mesh Treat
+        - mast Three
+        - ether Mast
+        - hat Meters
+        - Ham street
+        - merest Hat
+        - ether Mats
+        - Rats theme
+        - Rat themes
+        - test Harem
+        - stem Hater
+
+        - hem Taster
+        - three Mats
+        - term Haste
         - mars Teeth
         - mar test HE
         - mar test EH
         - ham Tester
-        - math Trees
         - terse Math
         - metre Hats
         - ARM test HE
+        - ARM test EH
         - RAM test HE
         - RAM test EH
         - meter Hats
         - term Heats
+        - her Tame St
+        - her Test Ma
+        - art Stem EH
+        - art Stem HE
+        - tar Stem EH
+        - tar Stem HE
+
         - am Tethers
         - am Her test
         - am the Rest
@@ -104,6 +132,14 @@ replacementTexts:
         - set the RAM
         - set Mr Heat
         - meet Trash
+        - tears Them
+        - met her Sat
+        - rates Them
+        - set hem Tar
+        - met at Hers
+        - sat term EH
+        - sat term HE
+
         - Me hatters
         - Me shatter
         - Me threats
@@ -115,43 +151,14 @@ replacementTexts:
         - He tarts me
         - He met arts
         - He met rats
-        - He treat Ms
         - She met rat
         - She met art
         - She met tar
+        - She at term
         - Ma tethers
-        - Her tamest
-        - Her Test Ma
         - Them stare
-        - Them tears
-        - Them rates
-        - he art Stem
-        - eh stem Art
-        - he tar Stem
-        - eh tar Stem
-        - set tar Hem
-        - she me Tart
-        - as mr Teeth
-        - as the Term
-        - he sat Term
-        - eh term Sat
-        - met her Sat
-        - ms at There
-        - ms at Ether
-        - ms at Three
-        - mr at Sheet
-        - mr at These
-        - he at Terms
-        - at eh Terms
-        - hem at Rest
-        - at her Stem
-        - met at Hers
-        - she at Term
-        - he a mr Test
-        - eh a test Mr
-        - the set mr A
-        - he set at Mr
-        - eh at mr Set
+        - Hem at rest
+        - she tart me
     stubs:
         - virtue
         - said
