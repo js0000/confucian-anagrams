@@ -17,6 +17,7 @@
 ---
 replacementTexts:
     theMaster:
+        # NOUN
         - the Mr East
         - the Mr A Set
         - the Mr Teas
@@ -32,6 +33,7 @@ replacementTexts:
         - the Stream
         - the Tamers
         - the A Terms
+        - Mast three
         - Ms Theatre
         - Ms Theater
         - Ms He Treat
@@ -48,10 +50,71 @@ replacementTexts:
         - the rest Ma
         - Me the star
         - She-matter
-        - Hem art set
         - the me arts
         - the me rats
-
+          # ADJ NOUN
+        - Heart stem
+        - Earth stem
+        - Tsar theme
+        - star Theme
+        - arts Theme
+        - Maths tree
+        - art Themes
+        - math Trees
+        - math Steer
+        - heat Terms
+        - mesh Treat
+        - terse Math
+        - three Mats
+        - Ether mast
+        - hat Meters
+        - Ham Street
+        - ham Tester
+        - term Heats
+        - tar Themes
+        - meter Hats
+        - metre Hats
+        - merest Hat
+        - ether Mats
+        - art Stem HE
+        - RAM test HE
+        - ARM test HE
+        - tar Stem HE
+        - mar test HE
+        - hem Art set
+        - her Tame St
+        - hem Taster
+        - her Test Ma
+        - art Stem EH
+        - RAM test EH
+        - ARM test EH
+        - tar Stem EH
+        - mar test EH
+        - mars Teeth
+        - term Haste
+        - Rats theme
+        - Rat themes
+        - test Harem
+        - stem Hater
+          # SUBJECT VERB
+        - He matters
+        - He met arts
+        - He met star
+        - He met Tsar
+        - He start me
+        - Ma tethers
+        - Me rest hat
+        - Me hatters
+        - Me threats
+        - Me shatter
+        - She met art
+        - She at term
+        - Them stare
+        - Hem at rest
+        - He met rats
+        - She met rat
+        - She met tar
+          # PREPOSITION
         - as the Term
         - at Mr These
         - at Mr Sheet
@@ -63,102 +126,37 @@ replacementTexts:
         - at Ms Ether
         - at terms E H
         - at her Stem
-
-        - Heart stem
-        - Earth stem
-        - Tsar theme
-        - Star theme
-        - Arts theme
-        - Maths tree
-        - Art themes
-        - Tar themes
-        - math Trees
-        - math Steer
-        - heat Terms
-        - mesh Treat
-        - mast Three
-        - ether Mast
-        - hat Meters
-        - Ham street
-        - merest Hat
-        - ether Mats
-        - Rats theme
-        - Rat themes
-        - test Harem
-        - stem Hater
-
-        - hem Taster
-        - three Mats
-        - term Haste
-        - mars Teeth
-        - mar test HE
-        - mar test EH
-        - ham Tester
-        - terse Math
-        - metre Hats
-        - ARM test HE
-        - ARM test EH
-        - RAM test HE
-        - RAM test EH
-        - meter Hats
-        - term Heats
-        - her Tame St
-        - her Test Ma
-        - art Stem EH
-        - art Stem HE
-        - tar Stem EH
-        - tar Stem HE
-
-        - am Tethers
-        - am Her test
-        - am the Rest
+          # VERB OBJECT
         - met Earths
         - met Hearts
-        - met Haters
-        - hate Terms
-        - rate the Ms
-        - rest Ahmet
-        - treat Hems
-        - retest Ham
-        - set her Mat
-        - set Rat hem
-        - set term AH
+        - am the Rest
         - set the Arm
-        - set term HA
-        - reset Math
-        - eat the Mrs
-        - ate the Mrs
-        - set Mr Hate
+        - rest Ahmet
         - set the RAM
         - set Mr Heat
-        - meet Trash
-        - tears Them
-        - met her Sat
-        - rates Them
-        - set hem Tar
         - met at Hers
-        - sat term EH
+        - retest Ham
         - sat term HE
-
-        - Me hatters
-        - Me shatter
-        - Me threats
-        - Me rest hat
-        - He matters
-        - He met star
-        - He met Tsar
-        - He start me
-        - He tarts me
-        - He met arts
-        - He met rats
-        - She met rat
-        - She met art
-        - She met tar
-        - She at term
-        - Ma tethers
-        - Them stare
-        - Hem at rest
-        - she tart me
+        - am Her test
+        - set term AH
+        - met her Sat
+        - treat Hems
+        - set her Mat
+        - rates Them
+        - reset Math
+        - set term HA
+        - set Hem Tar
+        - sat term EH
+        - am Tethers
+        - set Rat Hem
+        - meet Trash
+        - met Haters
+        - tears Them
+        - eat the Mrs
+        - ate the Mrs
+        - hate Terms
+        - rate the Ms
+        - set Mr Hate
     stubs:
         - virtue
         - said
@@ -171,111 +169,86 @@ replacementTexts:
         - asked
 bookNames:
     CONFUCIAN ANALECTS:
-        - CANONICAL FACE STUN
-        - CANONICAL SAFE CUNT
-        - CANCAN UNFIT SOLACE
-        - CON UNLACES FANATIC
-        - CONCEAL SATANIC FUN
-        - CONSISE ANNUAL FACT
-        - FLAUNT COCAINE SCAN
-        - CANCEL ANUS FACTION
-        - CANCEL FAUN ACTIONS
-        - CONCEAL FAUN ANTICS
-        - ANNUL ACCENT FIASCO
-        - FAT CONICAL NUANCES
-        - LACONIC SUNTAN FACE
-        - ENACTS LACONIC FAUN
-        - CAN UNFASTEN CALICO
-        - FINAL ACNE ACCOUNTS
-        - ACE FUNCTIONAL SCAN
-        - CONINTUAL FACE SCAN
-        - TONICS FUEL A CANCAN
-        - A FINE LOCUST CANCAN
-        - A FAN CONCEALS TUNIC
-        - A UNION CANCELS FACT
-        - A COIF ANNULS ACCENT
         - A FUN CONICAL ASCENT
+        - CONSISE ANNUAL FACT
+        - ACE FUNCTIONAL SCAN
         - A FUN LACONIC STANCE
+        - CON UNLACES FANATIC
+        - A COIF ANNULS ACCENT
+        - A UNION CANCELS FACT
+        - A FAN CONCEALS TUNIC
+        - CONINTUAL FACE SCAN
+        - LACONIC SUNTAN FACE
+        - TONICS FUEL A CANCAN
+        - CANONICAL FACE STUN
+        - FINAL ACNE ACCOUNTS
+        - CONCEAL SATANIC FUN
         - A CAUSTIC CANNON ELF
+        - CAN UNFASTEN CALICO
+        - CANCEL ANUS FACTION
+        - FLAUNT COCAINE SCAN
+        - CANCAN UNFIT SOLACE
+        - CANONICAL SAFE CUNT
     WEI CHANG:
-        - WING ACHE
         - EACH WING
         - WINCH AGE
+        - WING ACHE
     PA YIH:
-        - HI PAY
         - YIP HA
+        - PAY HI
     LE JIN:
         - NIJEL
     KUNG-YE CH'ANG:
         - HUNKY EGG CAN
+        - HEN GANG YUCK
         - NECK HANG GUY
-        - ANY EGG CHUNK
-        - YUCK HEN GANG
     YUNG YEY:
-        - YE GUY NY
+        - YE NY GUY
     SHU R:
         - RUSH
     T'AI-PO:
         - PATIO
-        - ATOP I
         - I TO PA
     TSZE HAN:
         - ZEN HATS
     HEANG TANG:
         - THEN A GANG
-        - HANG A GENT
         - TAN HEN GAG
-        - TEN NAG HAG
+        - HANG A GENT
     HSIEN TSIN:
-        - I THINNESS
-        - TINS SHINE
-        - THINE SINS
-        - THESIS INN
-        - NINE SHITS
-        - HIS TENNIS
-        - SHIN INSET
-        - ITS HEN SIN
-        - SIT IN HENS
-        - THEN IN SIN
-        - THE SIS INN
         - HI IN NESTS
-        - HIS IN NEST
-        - IN HIS TENS
-        - I SENT SHIN
-        - HIS NET SIN
-        - HISS IN NET
-        - IN SHIN SET
+        - TINS SHINE
+        - IN HIS NEST
+        - SHIN INSET
+        - THINE SINS
+        - NINE SHITS
     YEN YUAN:
-        - UN YEA NY
+        - YEA NY UN
     TSZE-LU:
         - LUTZES
-        - ZUL SET
     HSIEN WAN:
-        - WASH NINE
         - A HEN WINS
-        - WHEN A SIN
         - A NEW SHIN
+        - WASH NINE
         - IN NEW ASH
-        - SAW IN HEN
+        - WHEN A SIN
     WEI LING KUNG:
-        - WINGLIKE GUN
-        - WIN GLUE KING
-        - WIG GUNK LINE
-        - LUG WINE KING
+        - GLUE KING WIN
         - I WIN GEL GUNK
-        - WE LUG GIN KIN
+        - LUG WINE KING
+        - WINGLIKE GUN
+        - WIG LINE GUNK
     KE SHE:
         - SHEEK
     YANG HO:
-        - OH YANG
         - ANY HOG
+        - OH YANG
     WEI TSZE:
-        - WEE ZITS
         - WET SIZE
+        - WEE ZITS
     TSZE-CHANG:
-        - CHEZ ANGST
-        - CHEZ GNATS
         - ZEN TAGS CH
+        - CHEZ ANGST
     YAO YUEH:
         - YEAH YOU
         - YO UH YEA
