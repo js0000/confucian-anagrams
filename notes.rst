@@ -1,5 +1,6 @@
 20160629
-substitue characher names in analects for other more relevant
+========
+substitute characher names in analects for other more relevant
 names, maybe chosen from a list so the same character may have a
 different name each time. there can be a list of 'enlightened
 beings' and one of 'philosophers' and so on ...
@@ -14,11 +15,13 @@ get anagrams for 'the master' [better]
 
 
 20160706
+========
 citing analects:
 http://www.sfu.ca/~etiffany/teaching/phil120/Analects.html
 
 
 20160721
+========
 scheduling the pauses between tweets, there is a hierarchy.
 
 from shortest to longest
@@ -43,5 +46,6 @@ another set- setting off chapters
 
 
 20160816
+========
 API for anagrams
 http://anagramica.com/api
