@@ -6,6 +6,7 @@
 
 import pprint
 import re
+import sys
 import yaml
 
 # ROMAN INT CONVERSION
@@ -134,66 +135,65 @@ def roman_to_int(input):
 
 
 # MAIN
-f = open('raw-analects.txt', 'r')
-
-pp = pprint.PrettyPrinter(indent=2)
-analects = []
-currentBook = {'bookChapters': []}
-currentChapter = {'chapterVerses': []}
-nextLineTitle = False
-
-for line in f:
-
-    # skip blanks
-    m = re.match('^\s*$', line)
-    if m:
-        continue
-
-    l = line.rstrip()
-
-    if nextLineTitle:
-        currentBook['bookName'] = l.rstrip('.')
-        nextLineTitle = False
-        continue
-    else:
-        m = re.match('^(\d+)\. (.+)$', l)
+def main():
+    f = open('raw-analects.txt', 'r')
+    pp = pprint.PrettyPrinter(indent=2)
+    analects = []
+    currentBook = {'bookChapters': []}
+    currentChapter = {'chapterVerses': []}
+    nextLineTitle = False
+    for line in f:
+        # skip blanks
+        m = re.match('^\s*$', line)
         if m:
-            verseDict = {}
-            verseDict['verseNumber'] = int(m.group(1))
-            verseDict['verseText'] = m.group(2)
-            currentChapter['chapterVerses'].append(verseDict)
-
-        m = re.match('^BOOK (\w+)\.', l)
-        if m:
-            if 'bookNumber' in currentBook:
-                # clean up old chapter
-                currentBook['bookChapters'].append(currentChapter)
-                currentChapter = {'chapterVerses': []}
-                analects.append(currentBook)
-                currentBook = {'bookChapters': []}
-            r = m.group(1)
-            currentBook['bookNumber'] = roman_to_int(r)
-            nextLineTitle = True
             continue
-
-        m = re.match('^CHAP\. (\w+)\.', l)
-        if m:
-            if 'chapterNumber' in currentChapter:
-                currentBook['bookChapters'].append(currentChapter)
-                currentChapter = {'chapterVerses': []}
-            r = m.group(1)
-            currentChapter['chapterNumber'] = roman_to_int(r)
+        l = line.rstrip()
+        if nextLineTitle:
+            currentBook['bookName'] = l.rstrip('.')
+            nextLineTitle = False
             continue
+        else:
+            m = re.match('^(\d+)\. (.+)$', l)
+            if m:
+                verseDict = {}
+                verseDict['verseNumber'] = int(m.group(1))
+                verseDict['verseText'] = m.group(2)
+                currentChapter['chapterVerses'].append(verseDict)
+            m = re.match('^BOOK (\w+)\.', l)
+            if m:
+                if 'bookNumber' in currentBook:
+                    # clean up old chapter
+                    currentBook['bookChapters'].append(currentChapter)
+                    currentChapter = {'chapterVerses': []}
+                    analects.append(currentBook)
+                    currentBook = {'bookChapters': []}
+                r = m.group(1)
+                currentBook['bookNumber'] = roman_to_int(r)
+                nextLineTitle = True
+                continue
 
-# clean up
-currentBook['bookChapters'].append(currentChapter)
-analects.append(currentBook)
-f.close()
+            m = re.match('^CHAP\. (\w+)\.', l)
+            if m:
+                if 'chapterNumber' in currentChapter:
+                    currentBook['bookChapters'].append(currentChapter)
+                    currentChapter = {'chapterVerses': []}
+                r = m.group(1)
+                currentChapter['chapterNumber'] = roman_to_int(r)
+                continue
+    # clean up
+    currentBook['bookChapters'].append(currentChapter)
+    analects.append(currentBook)
+    f.close()
 
-f = open('raw-analects.yaml', 'w')
-yaml.dump(analects, f,
-          default_flow_style=False, width=9999, explicit_start=True)
-f.close()
+    f = open('raw-analects.yaml', 'w')
+    yaml.dump(analects, f,
+              default_flow_style=False, width=9999, explicit_start=True)
+    f.close()
+    sys.exit()
+
+
+if __name__ == '__main__':
+    main()
 
 
 # PARSING LOGIC

@@ -3,6 +3,7 @@
 
 import random
 import re
+import sys
 import yaml
 
 # DEBUG
@@ -170,19 +171,23 @@ def generateAnagramText(vt, r):
 
 
 # MAIN
+def main():
+    f = open('meta.yaml')
+    meta = yaml.load(f)
+    f.close()
 
-f = open('meta.yaml')
-meta = yaml.load(f)
-f.close()
+    f = open('raw-analects.yaml')
+    analects = yaml.load(f)
+    f.close()
 
-f = open('raw-analects.yaml')
-analects = yaml.load(f)
-f.close()
+    for book in analects:
+        for chapter in book['bookChapters']:
+            for verse in chapter['chapterVerses']:
+                anagramText = generateAnagramText(verse['verseText'], meta)
+    sys.exit()
 
-for book in analects:
-    for chapter in book['bookChapters']:
-        for verse in chapter['chapterVerses']:
-            anagramText = generateAnagramText(verse['verseText'], meta)
+if __name__ == '__main__':
+    main()
 
 # add 'anagramText' key to verse object
 # add 'info' key with date/time of replacement
