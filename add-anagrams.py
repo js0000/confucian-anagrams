@@ -16,9 +16,28 @@ masterCounter = 0
 
 # SUBROUTINES
 
+# FIXME: code needs to be written
+# select anagram text by looking for long words
+# continue as if found long word was computed list string
+# and further lengthen as necessary
+def randomTextReplacement(vt):
+    """Replaces arbitrary text within verse, tries to process text containing
+    longest words within verse."""
+    anagramVerse = '!!! random text replacement not written: '
+    anagramVerse += vt
+    return anagramVerse
+
+
 # FIXME: investigate case
 # where split occurs with punctuation immediately after stub
+#   find string in text and add words on each side until > N length
+#   do not cross punctuation boundaries
+#   shuffle anagram words and replace
 def replaceStub(vt, s):
+    """Given a verse and a stub, creates a longer excerpt from the verse
+    featuring the stub and replaces it with an anagram thereof."""
+
+    # split on stub
     verseList = re.split(s, vt, flags=re.IGNORECASE)
     parts = len(verseList)
     beforeStub = []
@@ -26,9 +45,14 @@ def replaceStub(vt, s):
 
     # no matches
     if parts == 0:
-        print('split fails for ' + vt)
-        return False
+        msg = ' '.join(['split on',
+            s,
+            'fails [verseText]:',
+            vt])
+        raise ValueError(msg)
+    # multiple matches
     elif parts > 2:
+        # determine where split will take place
         splitIdx = random.randint(0, parts - 2)
         for i in range(parts):
             if i < splitIdx:
@@ -138,40 +162,43 @@ def selectMasterReplacement(r, b):
 
 
 def generateAnagramText(vt, r):
+    """Examines input verse text to determine how it should be processed. There
+    are three paths for processing:
+    1. text contains 'the master'
+    2. text contains one of the replacement stubs
+    3. text does not contain any hints for processing
+    Each verse is passed through these steps until a match is found."""
+
+    anagramVerse = False
     m = re.search('the master', vt, flags=re.IGNORECASE)
     if m:
         replacement = selectMasterReplacement(r, False)
         anagramVerse = replaceMaster(vt, replacement)
-        return anagramVerse
-
-    for s in r['replacementTexts']['stubs']:
-        m = re.search(s, vt, flags=re.IGNORECASE)
-        if m:
-            anagramVerse = replaceStub(vt, s)
-            return 'c'
-
-    # FIXME: this is the random text replacement
-    return 'x'
-
-# subroutine only a stub now
-# coding logic explained below
+    else:
+        for s in r['replacementTexts']['stubs']:
+            m = re.search(s, vt, flags=re.IGNORECASE)
+            if m:
+                anagramVerse = replaceStub(vt, s)
+        if not anagramVerse:
+            anagramVerse = randomTextReplacement(vt)
+    return anagramVerse
 
 # process each verseText using regex
 # in case of multiple matches in a string, choose only one to replace
 #  if 'the Master' exists directly replace
-#  if one of computed list
-#   find string in text and add words on each side until > N length
-#   do not cross punctuation boundaries
-#   shuffle anagram words and replace
 #  else
-#   select anagram text by looking for long words
-#   continue as if found long word was computed list string
-#    and further lengthen as necessary
 # if original text has initial uppercase letter, do the same for replacement
 
 
 # MAIN
+# FIXME
+# - add 'anagramText' key to verse object
+# - add 'info' key with date/time of replacement
+#   also maybe other interesting stats
+# - dump updated data to yaml
 def main():
+    """Top level loop for processing. Opens analects source file and loops
+    through each verse to generate an anagram within."""
     f = open('meta.yaml')
     meta = yaml.load(f)
     f.close()
@@ -189,7 +216,3 @@ def main():
 if __name__ == '__main__':
     main()
 
-# add 'anagramText' key to verse object
-# add 'info' key with date/time of replacement
-#  also maybe other interesting stats
-# dump updated data to yaml
